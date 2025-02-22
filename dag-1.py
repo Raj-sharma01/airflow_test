@@ -3,7 +3,7 @@ from airflow.decorators import task
 from airflow.utils.dates import days_ago
 
 with DAG(
-    "dag_1",
+    "dag-1",
     schedule=None,
     start_date=days_ago(1),
     catchup=False
